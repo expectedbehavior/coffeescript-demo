@@ -14,3 +14,10 @@ gem 'unicorn'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 gem 'ruby-debug19'
+
+# erb is stoopids
+gem 'haml'
+
+group :development, :test do
+  gem 'awesome_print'
+end

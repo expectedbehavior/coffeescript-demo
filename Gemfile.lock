@@ -30,6 +30,7 @@ GEM
     activesupport (3.0.3)
     archive-tar-minitar (0.5.2)
     arel (2.0.7)
+    awesome_print (0.3.2)
     barista (1.0.0)
       coffee-script (~> 2.1.1)
     builder (2.1.2)
@@ -39,6 +40,7 @@ GEM
     columnize (0.3.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    haml (3.0.25)
     i18n (0.5.0)
     kgio (2.2.0)
     linecache19 (0.5.11)
@@ -94,7 +96,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   barista (~> 1.0)
+  haml
   rails (= 3.0.3)
   ruby-debug19
   sqlite3-ruby
