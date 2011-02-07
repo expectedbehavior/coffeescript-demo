@@ -20,7 +20,7 @@ public/system
 public/p/*
 public/culerity_page_errors
 public/javascripts/all.js
-public/stylesheets/all.css
+public/stylesheets
 public/images/upload
 public/data
 vendor/bundle
