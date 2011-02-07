@@ -38,6 +38,8 @@ GEM
       coffee-script-source
     coffee-script-source (1.0.1)
     columnize (0.3.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     haml (3.0.25)
@@ -91,6 +93,7 @@ GEM
     unicorn (3.4.0)
       kgio (~> 2.2)
       rack
+    web-app-theme (0.6.3)
 
 PLATFORMS
   ruby
@@ -98,8 +101,10 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   barista (~> 1.0)
+  compass
   haml
   rails (= 3.0.3)
   ruby-debug19
   sqlite3-ruby
   unicorn
+  web-app-theme
