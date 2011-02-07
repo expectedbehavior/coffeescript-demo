@@ -26,3 +26,4 @@ public/data
 vendor/bundle
 test/log
 tmp
+public/javascripts/[0123456789]*.js
