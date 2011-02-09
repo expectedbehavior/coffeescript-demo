@@ -6,8 +6,6 @@ gem "rails", "3.0.3"
 gem "sqlite3-ruby", :require => "sqlite3"
 # coffeescript compiler
 gem "barista", "~> 1.0"
-# Use unicorn as the web server
-gem "unicorn"
 # debugger
 gem "ruby-debug19"
 # erb is stoopids
@@ -16,8 +14,8 @@ gem "haml"
 gem "compass"
 
 group :development, :test do
-  # printing better
-  gem "awesome_print"
+  # common files gem
+  gem 'cf_ruby_gems', '=0.1.7', :require => nil, :git => "git://github.com/expectedbehavior/cf_ruby_gems.git"
   # pretty interface
   gem "web-app-theme"
   # no more erb
