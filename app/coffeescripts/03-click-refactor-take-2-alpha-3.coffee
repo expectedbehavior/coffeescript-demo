@@ -1,3 +1,8 @@
+foo =
+  bar: "HELL YEAH"
+  baz: "super"
+
+
 empty_text_siblings = (el, selector = null) ->
   search_container = $(el).closest "form"
   search_container = search_container.find(selector) if selector
