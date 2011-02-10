@@ -14,8 +14,6 @@ gem "haml"
 gem "compass"
 
 group :development, :test do
-  # common files gem
-  gem 'cf_ruby_gems', '=0.1.7', :require => nil, :git => "git://github.com/expectedbehavior/cf_ruby_gems.git"
   # pretty interface
   gem "web-app-theme"
   # no more erb
@@ -24,4 +22,6 @@ group :development, :test do
   gem "rails3-generators"
   # fixtures are stoopids
   gem "factory_girl"
+  # common files gem
+  gem 'cf_ruby_gems', '=0.1.7', :require => nil, :git => "git://github.com/expectedbehavior/cf_ruby_gems.git"
 end
