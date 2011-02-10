@@ -9,4 +9,4 @@ $ ->
     if empties.length
       empties.each ->
         $(this).css "background-color", "pink"
-      return false
+      false
