@@ -6,13 +6,13 @@
         - @post.errors.full_messages.each do |msg|
           %li= msg
 
-  .field
+  .field{:class => is_required?(:title)}
     = f.label :title
     = f.text_field :title
-  .field
+  .field{:class => is_required?(:author)}
     = f.label :author
     = f.text_field :author
-  .field
+  .field{:class => is_required?(:body)}
     = f.label :body
     = f.text_area :body
   .actions
